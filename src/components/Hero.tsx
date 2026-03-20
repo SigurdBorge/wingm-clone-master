@@ -22,7 +22,7 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.15 }}
           className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
         >
-          WINGM is an outbound sales agency helping B2B SaaS & AI companies scale effortlessly across Europe.
+          Romera is an outbound sales agency helping B2B SaaS & AI companies scale effortlessly across Europe.
         </motion.p>
 
         <motion.p

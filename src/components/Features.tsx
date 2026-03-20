@@ -34,7 +34,7 @@ const Features = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-heading font-extrabold text-3xl md:text-5xl text-foreground">
-            Why Choose WINGM?
+            Why Choose Romera?
           </h2>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto text-lg">
             Our specialized approach delivers results tailored for B2B SaaS & AI companies expanding into new markets.
