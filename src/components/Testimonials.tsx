@@ -3,32 +3,32 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "WINGM helped us ramp up fast in new markets and gain valuable insights from ICP prospects. They adapt quickly, from small tweaks to testing entirely new markets.",
+    quote: "Romera helped us ramp up fast in new markets and gain valuable insights from ICP prospects. They adapt quickly, from small tweaks to testing entirely new markets.",
     name: "Egbert Weverink",
     company: "Zuuvi",
   },
   {
-    quote: "We chose WINGM over building our own SDR team. Within a week we were up and running, and meetings followed fast. They connect us with ideal prospects across multiple countries.",
+    quote: "We chose Romera over building our own SDR team. Within a week we were up and running, and meetings followed fast. They connect us with ideal prospects across multiple countries.",
     name: "Victor Fuglesang",
     company: "Ripe",
   },
   {
-    quote: "With WINGM's fast and excellent onboarding, we've had quality meetings right from the start. This resulted in a high-value pipeline within a few short months.",
+    quote: "With Romera's fast and excellent onboarding, we've had quality meetings right from the start. This resulted in a high-value pipeline within a few short months.",
     name: "Jahanzeeb Ahmed",
     company: "BeCause",
   },
   {
-    quote: "WINGM helped us boost our pipeline with high-quality meetings in the Benelux and UK, we've already closed significant ARR. Highly recommended for SaaS companies expanding to new regions.",
+    quote: "Romera helped us boost our pipeline with high-quality meetings in the Benelux and UK, we've already closed significant ARR. Highly recommended for SaaS companies expanding to new regions.",
     name: "Mads Rigét",
     company: "AccuRanker",
   },
   {
-    quote: "WINGM delivers quality leads from C-level execs across Western Europe. Their approach even enabled us to launch a new proposition. WINGM truly stands out.",
+    quote: "Romera delivers quality leads from C-level execs across Western Europe. Their approach even enabled us to launch a new proposition. Romera truly stands out.",
     name: "Daan Assen",
     company: "Swipe Guide",
   },
   {
-    quote: "WingM helped us break into DACH, and we closed our first deal within 8 weeks. No fluff, just results.",
+    quote: "Romera helped us break into DACH, and we closed our first deal within 8 weeks. No fluff, just results.",
     name: "Douglas van Oijen",
     company: "Neople",
   },

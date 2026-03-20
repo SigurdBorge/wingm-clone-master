@@ -8,23 +8,23 @@ import {
 const faqs = [
   {
     q: "What is the time commitment required for a successful onboarding?",
-    a: "On average, onboarding with WINGM requires 1-2 weeks, during which we collaborate with you in 3 sessions to define your Ideal Customer Profile (ICP) and set up a tailored outbound strategy.",
+    a: "On average, onboarding with Romera requires 1-2 weeks, during which we collaborate with you in 3 sessions to define your Ideal Customer Profile (ICP) and set up a tailored outbound strategy.",
   },
   {
-    q: "What kind of businesses can WINGM help with their expansion?",
-    a: "WINGM specializes in working with B2B SaaS companies looking to expand into key European markets, including Benelux, Scandinavia, DACH, and the UK.",
+    q: "What kind of businesses can Romera help with their expansion?",
+    a: "Romera specializes in working with B2B SaaS companies looking to expand into key European markets, including Benelux, Scandinavia, DACH, and the UK.",
   },
   {
-    q: "How does WINGM book meetings for us?",
+    q: "How does Romera book meetings for us?",
     a: "We use our proven outbound method combining an advanced tech stack for targeted prospecting with a 90% focus on cold calling for direct and effective outreach.",
   },
   {
-    q: "Why does WINGM have a better conversion rate than most marketing channels?",
+    q: "Why does Romera have a better conversion rate than most marketing channels?",
     a: "Our expert Senior BDRs excel at engaging top decision-makers. We combine hyper-precise targeting, an advanced tech stack worth tens of thousands per month, and persistent account development for sustained results.",
   },
   {
-    q: "Why is WINGM a better choice than building an in-house team?",
-    a: "WINGM provides specialized efficiency, a no-cure-no-pay model with zero overhead costs, faster results (meetings within 2-4 weeks), and zero risk — if we don't deliver, you don't pay.",
+    q: "Why is Romera a better choice than building an in-house team?",
+    a: "Romera provides specialized efficiency, a no-cure-no-pay model with zero overhead costs, faster results (meetings within 2-4 weeks), and zero risk — if we don't deliver, you don't pay.",
   },
 ];
 
