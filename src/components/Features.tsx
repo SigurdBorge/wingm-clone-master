@@ -12,7 +12,7 @@ const features = [
     icon: Globe,
     title: "Multiple regions",
     description:
-      "WINGM drives your international growth as a single partner in key markets: DACH, UK & Ireland, Benelux, Scandinavia.",
+      "Romera drives your international growth as a single partner in key markets: DACH, UK & Ireland, Benelux, Scandinavia.",
   },
   {
     icon: Cpu,
