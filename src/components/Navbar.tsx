@@ -39,7 +39,6 @@ const Navbar = () => {
               <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 bg-card border border-border rounded-xl shadow-lg py-2 min-w-[160px] animate-fade-in-up" style={{ animationDuration: "0.2s" }}>
                 <Link to="/about" onClick={() => setCompanyOpen(false)} className="block px-5 py-2.5 text-sm text-foreground hover:bg-secondary transition-colors">About us</Link>
                 <Link to="/contact" onClick={() => setCompanyOpen(false)} className="block px-5 py-2.5 text-sm text-foreground hover:bg-secondary transition-colors">Contact</Link>
-                <a href="#" className="block px-5 py-2.5 text-sm text-foreground hover:bg-secondary transition-colors">Careers</a>
               </div>
             )}
           </div>
