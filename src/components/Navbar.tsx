@@ -65,7 +65,6 @@ const Navbar = () => {
             <p className="text-sm font-medium text-muted-foreground">Company</p>
             <Link to="/about" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground pl-3">About us</Link>
             <Link to="/contact" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground pl-3">Contact</Link>
-            <a href="#" className="block text-sm text-foreground pl-3">Careers</a>
           </div>
           <Link to="/contact" onClick={() => setMobileOpen(false)}>
             <Button className="w-full bg-primary text-primary-foreground rounded-full font-semibold">
