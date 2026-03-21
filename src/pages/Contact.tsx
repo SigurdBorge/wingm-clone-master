@@ -60,7 +60,7 @@ const Contact = () => {
 
       {/* Info Cards */}
       <section className="pb-20 px-6">
-        <div className="max-w-5xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="max-w-5xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
               icon: MapPin,
@@ -70,13 +70,7 @@ const Contact = () => {
             {
               icon: Mail,
               title: "Sales & Partnerships",
-              lines: ["intro@romera.io", "+31 20 250 4641"],
-              links: true,
-            },
-            {
-              icon: ExternalLink,
-              title: "Careers",
-              lines: ["careers@romera.io", "View Job Openings"],
+              lines: ["contact@romerapartners.com", "+31 20 250 4641"],
               links: true,
             },
             {
