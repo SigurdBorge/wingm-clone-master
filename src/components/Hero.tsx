@@ -40,9 +40,11 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.35 }}
           className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
-            Book a Meeting
-          </Button>
+          <a href="https://calendly.com/borge-romerapartners/30min" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
+              Book a Meeting
+            </Button>
+          </a>
           <Button variant="outline" className="rounded-full px-8 py-6 text-base font-semibold border-border text-foreground hover:bg-secondary">
             Our Approach
           </Button>

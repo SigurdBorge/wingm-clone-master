@@ -18,9 +18,11 @@ const CTASection = () => {
         <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-8">
           Proven strategies, real-world examples, and expert tips to land your first customers in new markets, fast.
         </p>
-        <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
-          Book a Meeting <ArrowRight className="w-4 h-4 ml-2" />
-        </Button>
+        <a href="https://calendly.com/borge-romerapartners/30min" target="_blank" rel="noopener noreferrer">
+          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
+            Book a Meeting <ArrowRight className="w-4 h-4 ml-2" />
+          </Button>
+        </a>
       </motion.div>
     </section>
   );

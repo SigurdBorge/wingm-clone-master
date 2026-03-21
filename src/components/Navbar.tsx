@@ -45,11 +45,11 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <Link to="/contact">
+          <a href="https://calendly.com/borge-romerapartners/30min" target="_blank" rel="noopener noreferrer">
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 font-semibold text-sm shadow-lg shadow-primary/25">
               Book a Meeting
             </Button>
-          </Link>
+          </a>
         </div>
 
         <button className="md:hidden" onClick={() => setMobileOpen(!mobileOpen)}>
@@ -66,11 +66,11 @@ const Navbar = () => {
             <Link to="/about" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground pl-3">About us</Link>
             <Link to="/contact" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground pl-3">Contact</Link>
           </div>
-          <Link to="/contact" onClick={() => setMobileOpen(false)}>
+          <a href="https://calendly.com/borge-romerapartners/30min" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>
             <Button className="w-full bg-primary text-primary-foreground rounded-full font-semibold">
               Book a Meeting
             </Button>
-          </Link>
+          </a>
         </div>
       )}
     </nav>

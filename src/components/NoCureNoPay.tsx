@@ -23,9 +23,11 @@ const NoCureNoPay = () => {
           <p className="text-lg md:text-xl opacity-80 max-w-2xl mx-auto leading-relaxed mb-8">
             Our approach means you only invest in meetings that drive real value. Success is defined by engaging the right decision-makers, targeting companies that match your ideal customer profile.
           </p>
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
-            Book a Meeting
-          </Button>
+          <a href="https://calendly.com/borge-romerapartners/30min" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
+              Book a Meeting
+            </Button>
+          </a>
         </div>
       </motion.div>
     </section>

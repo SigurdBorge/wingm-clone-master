@@ -156,9 +156,11 @@ const About = () => {
             <p className="text-lg opacity-80 max-w-xl mx-auto mb-8">
               Whether you're looking to scale your SaaS business or join our high-performance team, Romera is the place to be.
             </p>
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
-              Book a Meeting
-            </Button>
+            <a href="https://calendly.com/borge-romerapartners/30min" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
+                Book a Meeting
+              </Button>
+            </a>
           </div>
         </motion.div>
       </section>
