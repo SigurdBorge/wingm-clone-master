@@ -45,11 +45,11 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <Link to="/contact">
+          <a href="https://calendly.com/borge-romerapartners/30min" target="_blank" rel="noopener noreferrer">
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 font-semibold text-sm shadow-lg shadow-primary/25">
               Book a Meeting
             </Button>
-          </Link>
+          </a>
         </div>
 
         <button className="md:hidden" onClick={() => setMobileOpen(!mobileOpen)}>
