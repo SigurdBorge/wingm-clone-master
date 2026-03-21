@@ -39,7 +39,6 @@ const Navbar = () => {
               <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 bg-card border border-border rounded-xl shadow-lg py-2 min-w-[160px] animate-fade-in-up" style={{ animationDuration: "0.2s" }}>
                 <Link to="/about" onClick={() => setCompanyOpen(false)} className="block px-5 py-2.5 text-sm text-foreground hover:bg-secondary transition-colors">About us</Link>
                 <Link to="/contact" onClick={() => setCompanyOpen(false)} className="block px-5 py-2.5 text-sm text-foreground hover:bg-secondary transition-colors">Contact</Link>
-                <a href="#" className="block px-5 py-2.5 text-sm text-foreground hover:bg-secondary transition-colors">Careers</a>
               </div>
             )}
           </div>
@@ -66,7 +65,6 @@ const Navbar = () => {
             <p className="text-sm font-medium text-muted-foreground">Company</p>
             <Link to="/about" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground pl-3">About us</Link>
             <Link to="/contact" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground pl-3">Contact</Link>
-            <a href="#" className="block text-sm text-foreground pl-3">Careers</a>
           </div>
           <Link to="/contact" onClick={() => setMobileOpen(false)}>
             <Button className="w-full bg-primary text-primary-foreground rounded-full font-semibold">
