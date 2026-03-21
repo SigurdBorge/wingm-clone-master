@@ -66,11 +66,11 @@ const Navbar = () => {
             <Link to="/about" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground pl-3">About us</Link>
             <Link to="/contact" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground pl-3">Contact</Link>
           </div>
-          <Link to="/contact" onClick={() => setMobileOpen(false)}>
+          <a href="https://calendly.com/borge-romerapartners/30min" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>
             <Button className="w-full bg-primary text-primary-foreground rounded-full font-semibold">
               Book a Meeting
             </Button>
-          </Link>
+          </a>
         </div>
       )}
     </nav>

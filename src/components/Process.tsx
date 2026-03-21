@@ -44,9 +44,11 @@ const Process = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
-            Discover Our Process <ArrowRight className="w-4 h-4 ml-2" />
-          </Button>
+          <a href="/#process">
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-primary/25">
+              Discover Our Process <ArrowRight className="w-4 h-4 ml-2" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>
