@@ -11,7 +11,7 @@ const Footer = () => {
           <Link to="/about" className="hover:text-foreground transition-colors">About</Link>
           <Link to="/contact" className="hover:text-foreground transition-colors">Contact</Link>
         </div>
-        <p className="text-sm text-muted-foreground">© 2025 Romera. All rights reserved.</p>
+        <p className="text-sm text-muted-foreground">© 2026 Romera Partners. All rights reserved.</p>
       </div>
     </footer>
   );

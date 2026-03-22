@@ -6,7 +6,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import aboutOffice from "@/assets/about-office.jpg";
 import aboutTeam from "@/assets/about-team.jpg";
-import aboutFounder from "@/assets/about-founder.jpg";
 
 const timeline = [
   {
@@ -90,36 +89,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Founder Quote */}
-      <section className="py-20 px-6 bg-secondary/50">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="flex-shrink-0"
-          >
-            <img
-              src={aboutFounder}
-              alt="Founder"
-              className="w-32 h-32 rounded-2xl object-cover"
-            />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-          >
-            <blockquote className="text-xl md:text-2xl font-heading font-bold text-foreground italic leading-relaxed mb-4">
-              "Our mission is to help B2B SaaS companies achieve sustainable international growth."
-            </blockquote>
-            <p className="font-heading font-bold text-foreground">Marco Velasquez</p>
-            <p className="text-sm text-muted-foreground">Founder of Romera</p>
-          </motion.div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-20 px-6">

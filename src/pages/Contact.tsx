@@ -66,13 +66,13 @@ const Contact = () => {
           {[
             {
               icon: MapPin,
-              title: "HQ Europe",
-              lines: ["Nieuwezijds Voorburgwal 271", "1012 RL, Amsterdam", "The Netherlands"],
+              title: "Location",
+              lines: ["Amsterdam, The Netherlands"],
             },
             {
               icon: Mail,
-              title: "Sales & Partnerships",
-              lines: ["contact@romerapartners.com", "+31 20 250 4641"],
+              title: "Email",
+              lines: ["contact@romerapartners.com"],
               links: true,
             },
             {
