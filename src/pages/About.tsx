@@ -9,6 +9,12 @@ import aboutTeam from "@/assets/about-team.jpg";
 
 const timeline = [
   {
+    year: "2022",
+    title: "The Spark",
+    desc: "Romera was founded with a simple but ambitious mission: help B2B companies break into new markets through expert outbound sales. Starting from a small office in Amsterdam, we began building the playbooks and processes that would become the foundation of our success.",
+    image: aboutOffice,
+  },
+  {
     year: "2024",
     title: "Scaling the Team",
     desc: "Our team grew from 5 to over 25 professionals in just two years. We attracted top-tier sales talent and invested in continuous training, ensuring every team member delivered the quality our clients expected.",
@@ -16,7 +22,7 @@ const timeline = [
   },
   {
     year: "2025",
-    title: "New Leadership",
+    title: "New Leadership & Expansion",
     desc: "To fuel the next phase of growth, we welcomed a co-founder to lead operations. With strengthened leadership and a clear strategic vision, Romera is positioned to become the leading outbound sales partner for B2B companies across Europe.",
     image: null,
   },
