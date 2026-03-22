@@ -6,7 +6,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import aboutOffice from "@/assets/about-office.jpg";
 import aboutTeam from "@/assets/about-team.jpg";
-import aboutFounder from "@/assets/about-founder.jpg";
 
 const timeline = [
   {
