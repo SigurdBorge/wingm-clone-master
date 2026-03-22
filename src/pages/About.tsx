@@ -10,24 +10,6 @@ import aboutFounder from "@/assets/about-founder.jpg";
 
 const timeline = [
   {
-    year: "2022",
-    title: "The Spark",
-    desc: "Romera was born out of a simple observation: B2B SaaS companies struggled to break into European markets. Our founder, with years of experience scaling tech businesses across borders, decided to build a dedicated partner for international SaaS expansion.",
-    image: aboutOffice,
-  },
-  {
-    year: "2023",
-    title: "Perfecting the Playbook",
-    desc: "We invested heavily in refining our outbound methodology, placing cold calling at the center of our strategy. By combining advanced prospecting tools with deep B2B SaaS knowledge, we developed a repeatable formula that consistently delivered qualified meetings.",
-    image: null,
-  },
-  {
-    year: "2023",
-    title: "Crossing Borders",
-    desc: "With a proven approach and surging demand, we expanded into key European markets — Benelux, Scandinavia, DACH, and the UK — tailoring our strategies to each region's unique business culture.",
-    image: null,
-  },
-  {
     year: "2024",
     title: "Scaling the Team",
     desc: "Our team grew from 5 to over 25 professionals in just two years. We attracted top-tier sales talent and invested in continuous training, ensuring every team member delivered the quality our clients expected.",
@@ -36,7 +18,7 @@ const timeline = [
   {
     year: "2025",
     title: "New Leadership",
-    desc: "To fuel the next phase of growth, we welcomed a co-founder to lead operations. With strengthened leadership and a clear strategic vision, Romera is positioned to become the leading outbound sales partner for SaaS companies across Europe.",
+    desc: "To fuel the next phase of growth, we welcomed a co-founder to lead operations. With strengthened leadership and a clear strategic vision, Romera is positioned to become the leading outbound sales partner for B2B companies across Europe.",
     image: null,
   },
 ];

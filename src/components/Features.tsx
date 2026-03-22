@@ -16,9 +16,9 @@ const features = [
   },
   {
     icon: Cpu,
-    title: "SaaS specialization",
+    title: "B2B specialization",
     description:
-      "We work exclusively with B2B SaaS companies. Every team member has a strong SaaS background, making us true experts.",
+      "We work with B2B companies across technology, SaaS, and professional services.",
   },
   {
     icon: Zap,
