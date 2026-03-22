@@ -95,6 +95,29 @@ const About = () => {
         </div>
       </section>
 
+      {/* Mission */}
+      <section className="pb-16 px-6">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8">
+          {[
+            { title: "Our Mission", text: "To empower B2B companies with world-class outbound sales capabilities, enabling them to expand confidently into new markets and accelerate revenue growth." },
+            { title: "Our Approach", text: "We embed dedicated sales teams into our clients' operations — trained on their product, aligned with their goals, and equipped with proven outbound frameworks." },
+            { title: "Our Reach", text: "Operating across Europe, we help companies navigate diverse markets with multilingual teams, local market intelligence, and culturally adapted sales strategies." },
+          ].map((card, i) => (
+            <motion.div
+              key={card.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className="bg-card border border-border rounded-2xl p-6"
+            >
+              <h3 className="font-heading font-bold text-lg text-foreground mb-2">{card.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{card.text}</p>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
 
       {/* CTA */}
       <section className="py-20 px-6">
