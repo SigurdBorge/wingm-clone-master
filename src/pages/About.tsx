@@ -9,6 +9,12 @@ import aboutTeam from "@/assets/about-team.jpg";
 
 const timeline = [
   {
+    year: "2022",
+    title: "The Spark",
+    desc: "Romera was founded with a simple but ambitious mission: help B2B companies break into new markets through expert outbound sales. Starting from a small office in Amsterdam, we began building the playbooks and processes that would become the foundation of our success.",
+    image: aboutOffice,
+  },
+  {
     year: "2024",
     title: "Scaling the Team",
     desc: "Our team grew from 5 to over 25 professionals in just two years. We attracted top-tier sales talent and invested in continuous training, ensuring every team member delivered the quality our clients expected.",
@@ -16,7 +22,7 @@ const timeline = [
   },
   {
     year: "2025",
-    title: "New Leadership",
+    title: "New Leadership & Expansion",
     desc: "To fuel the next phase of growth, we welcomed a co-founder to lead operations. With strengthened leadership and a clear strategic vision, Romera is positioned to become the leading outbound sales partner for B2B companies across Europe.",
     image: null,
   },
@@ -54,7 +60,7 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mt-5 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed"
           >
-            Romera was created to tackle a core SaaS challenge: expanding into new international markets. With battle-tested outbound expertise, we've become the go-to partner for European SaaS growth.
+            Romera was founded to solve one of the biggest challenges B2B companies face: breaking into new international markets. With battle-tested outbound expertise and a results-driven culture, we've become a trusted growth partner for companies across technology, SaaS, and professional services.
           </motion.p>
         </div>
       </section>
@@ -86,6 +92,29 @@ const About = () => {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Mission */}
+      <section className="pb-16 px-6">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8">
+          {[
+            { title: "Our Mission", text: "To empower B2B companies with world-class outbound sales capabilities, enabling them to expand confidently into new markets and accelerate revenue growth." },
+            { title: "Our Approach", text: "We embed dedicated sales teams into our clients' operations — trained on their product, aligned with their goals, and equipped with proven outbound frameworks." },
+            { title: "Our Reach", text: "Operating across Europe, we help companies navigate diverse markets with multilingual teams, local market intelligence, and culturally adapted sales strategies." },
+          ].map((card, i) => (
+            <motion.div
+              key={card.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className="bg-card border border-border rounded-2xl p-6"
+            >
+              <h3 className="font-heading font-bold text-lg text-foreground mb-2">{card.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{card.text}</p>
+            </motion.div>
+          ))}
         </div>
       </section>
 
