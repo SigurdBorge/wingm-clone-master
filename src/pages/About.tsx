@@ -60,7 +60,7 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mt-5 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed"
           >
-            Romera was created to tackle a core SaaS challenge: expanding into new international markets. With battle-tested outbound expertise, we've become the go-to partner for European SaaS growth.
+            Romera was founded to solve one of the biggest challenges B2B companies face: breaking into new international markets. With battle-tested outbound expertise and a results-driven culture, we've become a trusted growth partner for companies across technology, SaaS, and professional services.
           </motion.p>
         </div>
       </section>
