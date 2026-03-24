@@ -3,28 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project">
-    <meta name="author" content="Lovable" />
+    
+    <title>Romera Partners</title>
+    <meta name="description" content="Strategic Partnership and Business Solutions">
+    <meta name="author" content="Romera Partners" />
 
-    <!-- TODO: Update og:title to match your application name -->
-    
-    
     <meta property="og:type" content="website" />
+    <meta property="og:title" content="Romera Partners">
+    <meta property="og:description" content="Strategic Partnership and Business Solutions">
     <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4024d2e9-14a2-46b3-a3ec-0383914cde56/id-preview-3d2ddc56--09172ba9-9ffc-4639-8e1b-a438ca92104c.lovable.app-1774069028111.png">
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:title" content="Romera Partners">
+    <meta name="twitter:description" content="Strategic Partnership and Business Solutions">
     <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4024d2e9-14a2-46b3-a3ec-0383914cde56/id-preview-3d2ddc56--09172ba9-9ffc-4639-8e1b-a438ca92104c.lovable.app-1774069028111.png">
-    <meta property="og:title" content="Lovable App">
-  <meta name="twitter:title" content="Lovable App">
-  <meta property="og:description" content="Lovable Generated Project">
-  <meta name="twitter:description" content="Lovable Generated Project">
-</head>
+
+    <style>
+      /* THE GLOBAL ERASER: Hides any element mentioning Lovable before it even renders */
+      .lovable-badge, 
+      [class*="lovable"], 
+      [id*="lovable"],
+      a[href*="lovable.dev"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        height: 0 !important;
+        width: 0 !important;
+        position: absolute !important;
+        left: -9999px !important;
+      }
+    </style>
+  </head>
 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <script>
+      (function() {
+        const cleanup = () => {
+          document.querySelectorAll('a').forEach(link => {
+            if (link.href.includes('lovable.dev') || link.innerText.includes('Lovable')) {
+              link.remove();
+            }
+          });
+          const badge = document.querySelector('.lovable-badge') || document.querySelector('[class*="lovable"]');
+          if (badge) badge.remove();
+        };
+        // Run immediately
+        cleanup();
+        // Run every half second for 5 seconds to catch delayed loading
+        let count = 0;
+        const interval = setInterval(() => {
+          cleanup();
+          count++;
+          if (count > 10) clearInterval(interval);
+        }, 500);
+      })();
+    </script>
   </body>
 </html>
